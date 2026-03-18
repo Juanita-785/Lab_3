@@ -76,8 +76,22 @@ Este proyecto contiene el código y la información para comprender el espectro 
   <img src="https://github.com/user-attachments/assets/c26b7e90-f115-4582-bbf4-0d237505f497"  width="300"/>
 </p>
 
+### Transformadas de Fourier filtradas
+#### Mujeres
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f268910e-f636-4ef9-af43-a866296911cd" width="300"/>
+  <img src="https://github.com/user-attachments/assets/b13c7194-b3d8-4776-826f-1db1243507e1" width="300"/>
+  <img src="https://github.com/user-attachments/assets/e2774c98-306f-41c7-9ab4-4a352e640852"  width="300"/>
+</p>
 
-## Calculos manuales
+#### Hombres
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8fc57cf4-2ca1-4446-b19b-2d4cd7397217" width="300"/>
+  <img src="https://github.com/user-attachments/assets/dce34607-9ae0-4ca5-b30c-eb1e5f43e71d" width="300"/>
+  <img src="https://github.com/user-attachments/assets/f841da02-c105-4bac-a051-a6d2ba0b2000""  width="300"/>
+</p>
+
+## Cálculos manuales
 
 ### Filtro 
 
