@@ -32,12 +32,12 @@ Este proyecto contiene el código y la información para comprender el espectro 
 **Importancia clínica del jitter y shimmer en el análisis de la voz.**
 
 ## Resultados 
-<div style="display: flex; gap: 10px;">
-  <img src="<img width="623" height="277" alt="1" src="https://github.com/user-attachments/assets/2f1d9622-0a82-4132-a50b-10f48c975cca" />" width="300"/>
-  <img src="<img width="610" height="279" alt="2" src="https://github.com/user-attachments/assets/dbf3e8b8-a23b-4952-b4b8-54d938e330c5" />" width="300"/>
-  <img src="<img width="606" height="279" alt="3" src="https://github.com/user-attachments/assets/e90d05ff-4bd8-4264-a98d-a142a196b892" />" width="300"/>
-</div>
-
+## Resultados
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2f1d9622-0a82-4132-a50b-10f48c975cca" width="300"/>
+  <img src="https://github.com/user-attachments/assets/dbf3e8b8-a23b-4952-b4b8-54d938e330c5" width="300"/>
+  <img src="https://github.com/user-attachments/assets/e90d05ff-4bd8-4264-a98d-a142a196b892" width="300"/>
+</p>
 ## Calculos manuales
 
 ### Filtro 
