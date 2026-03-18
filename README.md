@@ -32,7 +32,7 @@ Este proyecto contiene el código y la información para comprender el espectro 
 **Importancia clínica del jitter y shimmer en el análisis de la voz.**
 
 ## Resultados
-# Señales de voz de las 3 mujeres
+### Señales de voz de las 3 mujeres
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0017eaf1-fe7f-43d5-a2b8-d343241e8ef5" width="300"/>
   <img src="https://github.com/user-attachments/assets/dbf3e8b8-a23b-4952-b4b8-54d938e330c5" width="300"/>
