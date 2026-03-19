@@ -137,9 +137,20 @@ En los datos obtenidos se observa que las voces femeninas presentan, en general,
 
 ## Análisis Estadístico //Shara
 ### Parámetros calculados
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a8d1eeb9-89fe-4ef9-a1aa-014515129c44" width="450"/>
-</p>
+<div align="center">
+
+#### Características de la señal
+
+| Señal   | F0 (Hz) | Brillo (Hz) | Energía (RMS) |
+|--------|--------:|------------:|--------------:|
+| Mujer 1 | 336.64 | 2234.38 | 0.0640 |
+| Mujer 2 | 222.73 | 2283.06 | 0.0639 |
+| Mujer 3 | 208.02 | 3032.19 | 0.0656 |
+| Hombre 1 | 113.37 | 1635.25 | 0.0831 |
+| Hombre 2 | 149.49 | 2731.53 | 0.0885 |
+| Hombre 3 | 279.11 | 1632.99 | 0.0650 |
+
+</div>
 <p align="justify">
 Al calcular la frecuencia fundamental, se obtienen valores para las voces femeninas entre 208 Hz a 336 Hz, mientras que en los hombres oscila entre 113 Hz y 279 Hz. Al comparar estos resultados con la literatura, se observa que la frecuencia fundamental típica de la voz femenina se encuentra entre 165 Hz y 255 Hz, mientras que en la voz masculina oscila entre los 85 Hz y 155 Hz. En general, existe concordancia entre los valores experimentales y los teóricos. Sin embargo, se destacan algunos casos atípicos, la mujer 1 y el hombre 3, quienes presentan frecuencias fundamentales más elevadas de lo esperado. 
 
@@ -149,12 +160,36 @@ Por otro lado, el RMS calculado para las seis personas se encuentra en un rango 
 
 En términos generales, los datos experimentales coinciden con los valores teóricos, aunque se presentan algunas variaciones que pueden atribuirse al tono de voz de individual, la edad, el ruido ambiental, la distancia al micrófono y la calidad de la grabación. 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1efc86a8-421c-4bcb-a686-047f9d59917e" width="250"/>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c749333b-32f1-404f-a667-e7b6cbe85e3f" width="450"/>
-</p>
+<div align="center">
+
+#### Relación señal-ruido (SNR)
+
+| Señal   | SNR (dB) |
+|--------|---------:|
+| Audio 1 | 13.91 |
+| Audio 2 | 9.33 |
+| Audio 3 | 16.44 |
+| Audio 4 | 17.21 |
+| Audio 5 | 13.58 |
+| Audio 6 | 8.94 |
+
+</div>
+
+<div align="center">
+
+#### Jitter y Shimmer
+
+| Señal   | Jitt Abs (ms) | Jitt Rel (%) | Shim Abs | Shim Rel (%) |
+|--------|--------------:|-------------:|---------:|-------------:|
+| Mujer 1 | 0.1663 | 4.0870 | 0.0615 | 8.9792 |
+| Mujer 2 | 0.1361 | 2.9777 | 0.0629 | 11.5473 |
+| Mujer 3 | 0.1550 | 3.2740 | 0.0439 | 6.7933 |
+| Hombre 1 | 0.2041 | 2.5641 | 0.0284 | 3.8049 |
+| Hombre 2 | 0.0777 | 1.1608 | 0.0195 | 3.8633 |
+| Hombre 3 | 0.0680 | 0.5935 | 0.0410 | 7.8568 |
+
+</div>
+
 ### Transformada de Fourier
 ## Análisis de Resultados: //Juanita
 Evalúe si existen diferencias estadísticamente significativas entre los valores de los parámetros espectrales pertenecientes a señales de voz masculinas y femeninas.
