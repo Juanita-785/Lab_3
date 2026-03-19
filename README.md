@@ -13,7 +13,7 @@ El propósito de este laboratorio es que el estudiante aplique técnicas de aná
 Para llevar a cabo el análisis de la voz se tomaron 6 muestras a una misma frecuencia de muestreo (44.1 KHZ), de las cuales la mitad fueron hombres y la otra mitad mujeres, todas estas fueron exportadas en formato .wav a la multiplataforma Spyder, en donde se llevaron a cabo distintos procedimientos con el propósito de profundizar en su estudio. Primeramente se calculó y graficó la transformada de Fourier la cual nos permite descomponer la señal de voz en sus componentes de frecuencia, después se caracterizó la señal por medio de la frecuencia fundamental, brillo e intensidad.
 
 <p align="justify">
-Luego se aplicó un filtro pasa-banda con distintos rangos de frecuencia dependiendo del género, en los hombres se utilizó 80-400 Hz y en las mujeres 150-500 Hz, en donde fue necesario adquirir el SNR para obtener la segunda constante y calcular el órden del filtro. Para finalizar se realizó la medición del Jitter y Shimmer absoluto y relativo de las señales por medio las siguientes fórmulas:
+Luego se aplicó un filtro pasa-banda con distintos rangos de frecuencia dependiendo del género, en los hombres se utilizó 80-400 Hz y en las mujeres 150-500 Hz, en donde fue necesario adquirir el SNR para obtener la segunda constante y calcular el órden del filtro. Por consiguiente se realizó la medición del Jitter y Shimmer absoluto y relativo de las señales por medio las siguientes fórmulas:
 
 ### Jitter absoluto
 
@@ -49,7 +49,8 @@ Shimmer_{rel} =
 }
 \times 100
 $$
-
+<p align="justify">
+Finalmente en base a todos los resultados obtenidos se llevó a cabo el respectivo análisis con el fin de relacionar los datos teóricos con los prácticos.
 ## Diagrama de flujo 
 
 ### Parte A
