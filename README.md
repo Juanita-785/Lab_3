@@ -136,16 +136,23 @@ En los datos obtenidos se observa que las voces femeninas presentan, en general,
 </p>
 
 ## Análisis Estadístico //Shara
+### Parametros calculados
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a8d1eeb9-89fe-4ef9-a1aa-014515129c44" width="450"/>
 </p>
+<p align="justify">
+Al calcular la frecuencia fundamental, se obtienen valores para las voces femeninas entre 208 Hz a 336 Hz, mientras que en los hombres oscila entre 113 Hz y 279 Hz. Al comparar estos resultados con la literatura, se observa que la frecuencia fundamental típica de la voz femenina se encuentra entre 165 Hz y 255 Hz, mientras que en la voz masculina oscila entre los 85 Hz y 155 Hz. En general, existe concordancia entre los valores experimentales y los teóricos. Sin embargo, se destacan algunos casos atípicos, la mujer 1 y el hombre 3, quienes presentan frecuencias fundamentales más elevadas de lo esperado. 
+En cuanto al brillo, las voces femeninas presentan un rango de 2234 Hz a 3032 Hz, mientras que las voces masculinas se encuentran entre 1632 Hz a 2751 Hz, al comparar con los rangos teóricos (2500 Hz a 3500 Hz en voces femeninas y 1500 Hz a 2500 Hz en voces masculinas), se observa una buena concordancia, con excepción del hombre 2 que presenta un brillo más alto del esperado.
+Por otro lado, el RMS calculado para las seis personas se encuentra en un rango de 0.06 a 0.08, lo que coincide con los valores teóricos de 0.03 a 0.08 en una conversación normal. 
+En términos generales, los datos experimentales coinciden con los valores teóricos, aunque se presentan algunas variaciones que pueden atribuirse al tono de voz de individual, la edad, el ruido ambiental, la distancia al micrófono y la calidad de la grabación. 
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1efc86a8-421c-4bcb-a686-047f9d59917e" width="250"/>
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c749333b-32f1-404f-a667-e7b6cbe85e3f" width="450"/>
 </p>
-
+### Transformada de Fourier
 ## Análisis de Resultados: //Juanita
 Evalúe si existen diferencias estadísticamente significativas entre los valores de los parámetros espectrales pertenecientes a señales de voz masculinas y femeninas.
 
