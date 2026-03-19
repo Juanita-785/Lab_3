@@ -66,6 +66,10 @@ Finalmente en base a todos los resultados obtenidos se llevó a cabo el respecti
 ### Parte C
 
 **¿Qué diferencias se observan en la frecuencia fundamental?** //Juanita
+<p align="justify">
+
+Las diferencia que se puede observar en la frecuencia fundamental se encuentra relacionada con el género, ya que los resultados obtenidos en mujeres dan en un rango de 208 - 336 Hz, en cambio en los hombres da entre 85 - 255 Hz, dejando en evidencia que el género femenino cuenta con una frecuencia fundamental mucho más alta en comparación con los hombres. 
+
 
 **¿Qué otras diferencias notan en términos de brillo, media o intensidad?**
 <p align="justify">
