@@ -2,10 +2,11 @@
 ## Shara Cetina y Juanita Gómez
 
 ## Descripción
-Este proyecto contiene el código y la información para comprender el espectro de la voz, además de analizar y caracterizar señales de voz con ayuda de la transformada de Fourier.
+Este proyecto contiene el código y la información para comprender el espectro de la voz, además de analizar señales de voz con ayuda de técnicas de análisis espectral como la transformada de Fourier y caracterizar la señal con parámetros como frecuencia fundamental, brillo, intensidad, jitter y shimmer.
 
 ## Propósito //Shara
 <p align="justify">
+
 
 ## Metodología // Juanita
 <p align="justify">
