@@ -4,7 +4,7 @@
 ## Descripción
 Este proyecto contiene el código y la información para comprender el espectro de la voz, además de analizar señales de voz con ayuda de técnicas de análisis espectral como la transformada de Fourier y caracterizar la señal con parámetros como frecuencia fundamental, brillo, intensidad, jitter y shimmer.
 
-## Propósito //Shara
+## Propósito
 <p align="justify">
 El propósito de este laboratorio es que el estudiante aplique técnicas de análisis espectral y comprenda la importancia del cálculo de atributos en el dominio de la frecuencia dentro del procesamiento de señales, específicamente en señales de voz. Se busca que el estudiante entienda el análisis espectral como una herramienta que permite observar la distribución de la energía al descomponer una señal en sus componentes de frecuencia y amplitud. Asimismo, mediante el cálculo de parámetros de inestabilidad en señales periódicas, como el Jitter y Shimmer, junto con el análisis espectral de señales biológicas, se pretende que el estudiante evalúe el impacto de estos procedimientos en la detección de posibles patologías a partir de señales de voz y reconozca su relevancia en aplicaciones propias del ámbito de la ingeniería biomédica. Además, se busca que el estudiante relacione estos parámetros con características fisiológicas y de calidad de la señal, permitiendo la interpretación de diferencias entre distintos tipos de voz.
 
@@ -27,6 +27,8 @@ El propósito de este laboratorio es que el estudiante aplique técnicas de aná
 **¿Qué diferencias se observan en la frecuencia fundamental?** //Juanita
 
 **¿Qué otras diferencias notan en términos de brillo, media o intensidad?** //Shara
+<p align="justify">
+En los datos obtenidos se observa que las voces femeninas presentan, en general, valores más altos de brillo y frecuencia fundamenta. De acuerdo con la literatura, esto se debe a que las cuerdas vocales femeninas suelen ser más cortas y delgadas, lo que produce vibraciones más rápidas, una mayor frecuencia fundamental y una mayor presencia de componentes de alta frecuencia, percibidas como mayor brillo. Por otro lado, en las voces masculinas, las cuerdas vocales tienden a ser más larga y gruesas, lo que genera vibraciones más lentas, una frecuencia fundamental más baja y un sonido perceptivamente más grave en comparación con las voces femeninas. 
 
 **Comportamiento de la voz en hombres y mujeres a partir de los análisis realizados.** // Juanita
 
