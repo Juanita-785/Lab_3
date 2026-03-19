@@ -254,22 +254,20 @@ for i, (nombre, (ruta, t_inicio, t_fin)) in enumerate(audios_config.items()):
             # Amplitudes de los picos seleccionados
             Ai = sonido_f[indices_picos]
             
-            #Jitter Relativo
-            # Suma de las diferencias absolutas de periodos consecutivos
-            j_abs_sum = np.sum(np.abs(np.diff(Ti)))
-            j_rel = (j_abs_sum / (len(Ti) - 1)) / np.mean(Ti) * 100
-
-            #Shimmer Relativo
-            # Suma de las diferencias absolutas de amplitudes consecutivas
-            s_abs_sum = np.sum(np.abs(np.diff(Ai)))
-            s_rel = (s_abs_sum / (len(Ai) - 1)) / np.mean(Ai) * 100
+            N = len(Ti)
+            # Jitter Absoluto
+            j_abs = (1 / (N - 1)) * np.sum(np.abs(Ti[:-1] - Ti[1:]))
+            # Jitter Relativo (%)
+            j_rel = (j_abs / ((1 / N) * np.sum(Ti))) * 100
             
-            # Jitter Absoluto para la tabla (en ms)
-            j_abs_ms = (np.mean(np.abs(np.diff(Ti)))) * 1000
+            # --- CÁLCULOS DE SHIMMER ---
+            N = len(Ai)
             # Shimmer Absoluto
-            s_abs = np.mean(np.abs(np.diff(Ai)))
+            s_abs = (1 / (N - 1)) * np.sum(np.abs(Ai[:-1] - Ai[1:]))
+            # Shimmer Relativo (%)
+            s_rel = (s_abs / ((1 / N) * np.sum(Ai))) * 100
 
-            print(f"{nombre:<10} | {j_abs_ms:>11.4f} | {j_rel:>11.4f}% | {s_abs:>11.4f} | {s_rel:>11.4f}%")
+            print(f"{nombre:<10} | {j_abs:>11.4f} | {j_rel:>11.4f}% | {s_abs:>11.4f} | {s_rel:>11.4f}%")
 
             plt.figure(figsize=(10, 4))
             t_segmento = np.linspace(t_inicio, t_fin, len(sonido_f))
