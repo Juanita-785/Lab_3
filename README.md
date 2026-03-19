@@ -10,7 +10,45 @@ El propósito de este laboratorio es que el estudiante aplique técnicas de aná
 
 ## Metodología // Juanita
 <p align="justify">
-  
+Para llevar a cabo el análisis de la voz se tomaron 6 muestras a una misma frecuencia de muestreo (44.1 KHZ), las cuales la mitad fueron hombres y la otra mitad mujeres, todas estas fueron exportadas en formato .wav a la multiplataforma Spyder, en donde se llevaron a cabo distintos procedimientos con el propósito profundizar en su estudio. Primeramente se calculó y graficó la transformada de Fourier la cual nos permite descomponer la señal de voz en sus componentes de frecuencia, después se caracterizó la señal por medio de la frecuencia fundamental, brillo e intensidad.
+
+Luego se aplicó un filtro pasa-banda con distintos rangos de frecuencia dependiendo del género, en el caso de los hombres se utilizó 80-400 Hz y en las mujeres 150-500 Hz, en donde fue necesario adquirir el SNR para obtener la segunda constante y calcular el órden del filtro. Para finalizar se realizó la medición del Jitter y Shimmer absoluto y relativo de las señales por medio las fórmulas:
+
+### Jitter absoluto
+
+$$
+Jitter_{abs} = \frac{1}{N - 1} \sum_{i=1}^{N-1} |T_i - T_{i+1}|
+$$
+
+### Jitter relativo (%)
+
+$$
+Jitter_{rel} = 
+\frac{
+\frac{1}{N-1} \sum_{i=1}^{N-1} |T_i - T_{i+1}|
+}{
+\frac{1}{N} \sum_{i=1}^{N} T_i
+}
+\times 100
+$$
+## Shimmer absoluto
+
+$$
+Shimmer_{abs} = \frac{1}{N - 1} \sum_{i=1}^{N-1} |A_i - A_{i+1}|
+$$
+
+## Shimmer relativo (%)
+
+$$
+Shimmer_{rel} = 
+\frac{
+\frac{1}{N-1} \sum_{i=1}^{N-1} |A_i - A_{i+1}|
+}{
+\frac{1}{N} \sum_{i=1}^{N} A_i
+}
+\times 100
+$$
+
 ## Diagrama de flujo 
 
 ### Parte A
