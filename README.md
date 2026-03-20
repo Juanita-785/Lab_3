@@ -206,8 +206,15 @@ Este valor permite determinar los parámetros necesarios para el diseño de un f
 | Hombre 3 | 0.0680 | 0.5935 | 0.0410 | 7.8568 |
 
 </div>
+<p align="justify">
+Aunque los valore de Jitter y Shimmer no están establecidos de manera universal, existen algunos rangos de normalidad reportados en la literatura. El Jitter absoluto oscila entre 0.02 ms y 0.20 ms, datos que concuerdan con los valores obtenidos de manera experimental, aunque el hombre 1 presenta una ligera alteración. En el caso del Jitter relativo, se observa que el porcentaje de la mujer 1 es más elevado en comparación con los demás datos; además, al contrastarlo con la literatura, se encuentra dentro del rango de 0.2% a 1.5%.
+Al analizar el Shimmer, se observa un rango de 3.8% a 11%, valores que, al compararse con la literatura, se alejan del rango establecido (3% a 7%).
+La alteración de los resultados se puede explicar por una inestabilidad en la vibración de las cuerdas vocales, las condiciones de grabación, el tipo de voz, el tamaño de la muestra e incluso por características vocales específicas. Sin embargo, se puede observar que, en varios casos, especialmente en las mujeres, los datos se encuentran por encima del rango típico, lo que sugiere una mayor variabilidad vocal.
+
 
 ### Transformada de Fourier
+<p align="justify">
+
 ## Análisis de Resultados: 
 <p align="justify">
 Durante el desarrollo de la práctica, se evidenciaron diferencias significativas en los parámetros espectrales de las señales de voz en relación con el sexo de los hablantes en cuanto a la frecuencia fundamental ($FO$), las mujeres presentaron un rango notablemente más alto (208.02 Hz a 336.64 Hz) en comparación con el rango obtenido para los hombres (113.37 Hz a 279.11 Hz) esta distinción técnica tiene una base fisiológica sólida. Durante la pubertad, la testosterona provoca que la laringe masculina crezca y las cuerdas vocales se alarguen y engrosen (alcanzando entre 17 y 25 mm), lo que genera vibraciones más lentas y tonos graves en contraste, las mujeres mantienen cuerdas más cortas y delgadas (12 a 17 mm), produciendo vibraciones más rápidas y agudas, asimismo, el brillo, que indica la presencia de armónicos de alta frecuencia, fue consistentemente superior en las muestras femeninas, reflejando el timbre característico de este género, por el contrario, la intensidad de energía (RMS) fue generalmente mayor en los hombres, alcanzando valores de hasta 0.0885, lo cual se asocia a una mayor amplitud de vibración en los pliegues vocales masculinos.
